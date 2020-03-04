@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  background-color: red;
+}
+
+.login-box {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+  box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+}
+
+.search-bar {
+  height: 10%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-right: 5px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+  box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+}
+
+.content-box {
+  height: 88%;
+  background-color: white;
+  padding: 15px;
+  margin-top: 0.5%;
+  margin-right: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+  box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+}
+
+.logo-box {
+  height: 11%;
+}
+
+.side-menu{
+  height: 89%;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+  border-color: #ffbfbf;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  color: red;
+}
+a:hover {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
