@@ -1,6 +1,10 @@
-html, body {
+body {
   height: 100%;
   background-color: red;
+}
+
+.message {
+  display: none;
 }
 
 .login-box {
@@ -37,10 +41,6 @@ html, body {
 
 .logo-box {
   height: 11%;
-}
-
-.side-menu{
-  height: 89%;
 }
 
 .form-control:focus {
