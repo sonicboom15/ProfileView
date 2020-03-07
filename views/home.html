@@ -23,17 +23,28 @@
             <div class="col-10">
                <div class="row search-bar">
                   <div class="input-group form-group col-5 mt-2">
-                     <input class="form-control border-right-0" placeholder="Search">
+                     <input class="form-control border-right-0" id="search" placeholder="Search">
                      <span class="input-group-append bg-white">
                      <button class="btn border border-left-0" type="button"><i class="oi oi-magnifying-glass"></i></button>
                      </span>
                   </div>
                </div>
-               <div class="row content-box">
-                  Content 
+               <div class="row content-box container-fluid">
+                  <table id="profiletable" class="table">
+                     <thead>
+                        <tr>
+                          <th>Email</th>
+                          <th>Contact Number</th>
+                          <th>Date of Birth</th>
+                          <th>Edit details</th>
+                        </tr>
+                      </thead>
+                      <tbody id="profilebody"></tbody>
+                  </table>
                </div>
             </div>
          </div>
       </div>
+      <script src="resources/js/home.js"></script>
    </body>
 </html>
