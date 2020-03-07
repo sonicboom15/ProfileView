@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 session_start();
-require_once "config/dbconfig.php";
+require_once "../config/dbconfig.php";
 $username = $password = "";
 $username_err = $password_err = "";
 
